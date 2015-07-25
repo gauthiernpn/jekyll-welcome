@@ -13,3 +13,6 @@ url: "http://yourdomain.com" # the base hostname & protocol for your site
 markdown: rdiscount
 highlighter: pygments
 paginate: 15
+
+# Google Analytics
+google_analytics_tracking_id: UA-46712710-1
