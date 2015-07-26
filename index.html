@@ -11,17 +11,11 @@ layout: default
         <header class="article__title">
           <a href="{{ post.url | prepend: site.baseurl }}" class="post-item__title">{{ post.title }}</a>
         </header>
-        <p class="article__content"> 前言 
-           一位计算机前辈曾说过： 
-            Controlling complexity is the essence of computer programming.  
-           随着前端开发复杂度的日益提升，组件化开发应运而生，并随着 FIS、React 等优秀框架的出现遍地开花。这一过程同样发生在美团，面临业务规模的快速发展和工程师团队的不断扩张，我们历经引入组件化解决资源整合问题、逐步增强组件功能促进开发效率、重新打造新一代组件化方案适应全栈开发和共享共建等阶段，努力“controlling complexity”。本 ...
-        </p>
+        <p class="article__content">{{ post.content | strip_html | truncatewords:75}}</p>
         <footer class="article__meta post-item__meta">
           <span class="tags">
-            <a href="/tag/front-end"><i class="fa fa-tag"></i><span>front-end</span></a>
-            <a href="/tag/component"><i class="fa fa-tag"></i><span>component</span></a>
-            <a href="/tag/reduce"><i class="fa fa-tag"></i><span>reduce</span></a>
-            <a href="/tag/turbo"><i class="fa fa-tag"></i><span>turbo</span></a>
+            <!--TODO!!! add tag feature-->
+            <a href="/"><i class="fa fa-tag"></i><span>test-tag</span></a>
           </span>
           <span class="date">
             <i class="fa fa-calendar"></i>
