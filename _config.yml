@@ -1,6 +1,6 @@
 # Site settings
-title: Gabriel's Blog
-subtitle: please code
+title: Blog's title
+subtitle: this is the subtile of your blog
 author: Gabriel Zhang
 email: your-email@domain.com
 description: > # this means to ignore newlines until "baseurl:"
@@ -13,7 +13,7 @@ url: "http://yourdomain.com" # the base hostname & protocol for your site
 # Build settings
 markdown: rdiscount
 highlighter: pygments
-paginate: 15
+paginate: 5
 
 # Google Analytics
 google_analytics_tracking_id: UA-46712710-1

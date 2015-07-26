@@ -1,14 +1,16 @@
 <!DOCTYPE html>
 <html>
   {% include head.html %}
-  <body>
+  <body class="pg-post">
     {% include header.html %}
-    <section class="container">
-      <section class="main">
-        {{ content }}
-      </section>
-      {% include footer.html %}
-    </section>
+    <div id="bdw">
+      <div id="bd">
+        <div class="content">
+          {{ content }}
+        </div>
+      </div>
+    </div>
+    {% include footer.html %}
     {% include google-analytics.html %}
   </body>
 </html>
