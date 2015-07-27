@@ -3,6 +3,9 @@ layout: post
 title: "Golang channels tutorial"
 description: Golang channels tutorial
 date: 2013-12-06 11:00
+tags:
+- go
+- channel
 ---
 
 [Golang](http://golang.org/) has built-in instruments for writing concurrent programs. Placing a [go](http://golang.org/ref/spec#Go_statements) statement before a function call starts the execution of that function as an independent concurrent thread in the same address space as the calling code. Such thread is called `goroutine` in Golang. Here I should mention that concurrently doesn't always mean in parallel. Goroutines are means of creating concurrent architecture of a program which could possibly execute in parallel in case the hardware allows it. There is a great talk on that topic [Concurrency is not parallelism](http://blog.golang.org/concurrency-is-not-parallelism). 
