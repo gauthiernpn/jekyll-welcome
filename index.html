@@ -29,20 +29,5 @@ layout: default
 </div>
 
 {% if paginator.total_pages > 1 %}
-<nav class="pagination">
-  {% if paginator.previous_page %}
-    <span>&laquo;</span><a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}"> prev</a>
-  {% else %}
-    <span>&laquo; prev</span>
-  {% endif %}
-
-  <span class="page">&dash; {{ paginator.page }} &dash;</span>
-
-  {% if paginator.next_page %}
-    <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">next </a><span>&raquo;</span>
-  {% else %}
-    <span>next &raquo;</span>
-  {% endif %}
-</nav>
+<footer class="more"><a href="/archives" class="btn">Read More</a></footer>
 {% endif %}
-</div>
