@@ -3,6 +3,9 @@ layout: post
 title: "Liquid engine for PHP"
 description: Liquid engine for PHP, fork improvements
 date: 2014-09-07 21:00
+tags:
+- test
+- php
 ---
 
 I've just finished working on my [fork](https://github.com/kalimatas/php-liquid) of the Liquid template engine.
