@@ -24,10 +24,17 @@ layout: default
      </div>
      <hr>
      <p class="siblings cf">
-      <a href="/RACSignalSubscription.html" class="next"> 
-        下一篇 RACSignal的Subscription深入分析
+      {% if page.next.url %}
+      <a href="{{ page.next.url }}" class="previous">
+        <i class="fa fa-angle-double-left"></i>{{page.next.title}}
+      </a>
+      {% endif %}
+      {% if page.previous.url %}
+      <a href="{{ page.previous.url }}" class="next"> 
+        {{page.previous.title}}
         <i class="fa fa-angle-double-right"></i>
       </a>
+      {% endif %}
     </p>
   </footer>
 </article>
